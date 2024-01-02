@@ -1,0 +1,43 @@
+.top{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.products1{
+    display: flex;
+}
+.products2{
+    display: flex;
+}
+.carousel{
+    height: 700px;
+    width: 700px;
+}
+.sale{
+    display: flex;
+}
+.caption{
+    padding-left: 20px;
+    color: rgb(44, 8, 112);
+}
+
+#productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+#productsContainer > div{
+    background-color: rgb(153, 219, 86);
+    width: 300px;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+.sec_tit h2{
+    text-align: center;
+}
